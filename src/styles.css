@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sticky table header shadow */
+.sticky-header {
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+}
+
+/* Print-friendly */
+@media print {
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+  body { background: white; }
+}
+.print-only { display: none; }
