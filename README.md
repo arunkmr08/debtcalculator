@@ -1,13 +1,13 @@
-# Debt Calculator PWA (React + TS + Tailwind)
+# Debt Calculator (React + TS + Tailwind)
 
-A responsive PWA to manage multiple loans, compute EMIs, amortization with monthly extra payments, and show portfolio-level KPIs. Built with **Vite + React + TypeScript + Tailwind**; state via **Zustand**; dates via **dayjs**.
+A responsive to manage multiple loans, compute EMIs, amortization with monthly extra payments, and show portfolio-level KPIs. Built with **Vite + React + TypeScript + Tailwind**; state via **Zustand**; dates via **dayjs**.
 
 ## Features
 - Editable loan table (add/delete rows). Columns: Description, Actual Loan Amount, Loan Started On, Annual Interest %, Original Tenure (months), **Remaining Loan (auto)**, Monthly Extra.
 - Calculates **standard EMI**, amortization schedule, **new payoff date with extras**, interest remaining, and **interest saved** (vs no extra).
 - Portfolio totals: Total Outstanding, Total EMI, Interest Saved, Latest Payoff Date.
 - Filters: show/hide closed loans; Sort: payoff date / outstanding.
-- **PWA**: installable (manifest + service worker), offline app shell, **localStorage persistence** of data.
+- **APP**: installable (manifest + service worker), offline app shell, **localStorage persistence** of data.
 - UX: mobile-first, sticky header, keyboard-friendly inputs, basic validation.
 - Export: CSV (rows + summaries). Print-friendly page (use _Print PDF_).
 
